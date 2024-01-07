@@ -30,7 +30,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-wrapper {
   display: flex;
@@ -117,7 +117,7 @@
   width: 226px;
 }
 .item > .input-text[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .delete .delete-icon {
   height: 2em;
@@ -136,12 +136,12 @@
 
 /* Edit Task */
 .list .item .input-text[type="text"] {
-  display: none
+  display: none;
 }
 
 .list .edit-mode .input-text[type="text"] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .list .edit-mode .label {
